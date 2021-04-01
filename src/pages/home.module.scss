@@ -1,1 +1,64 @@
-// TODO
+.container {
+  width: 100%;
+  padding-bottom: 64px;
+}
+
+.content {
+  width: 700px;
+  margin: 0 auto 64px;
+
+  a {
+    display: block;
+    margin-bottom: 48px;
+
+    strong {
+      display: block;
+      font-size: 1.75rem;
+      font-weight: bold;
+      color: var(--white);
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1.125rem;
+      color: var(--gray-500);
+    }
+
+    div {
+      margin-top: 24px;
+      display: flex;
+      align-items: center;
+
+      time, p {
+        font-size: 0.875rem;
+        color: var(--gray-700);
+
+        display: flex;
+        align-items: center;
+
+        .icon {
+          margin-right: 0.5rem;
+        }
+      }
+
+      time {
+        margin-right: 24px;
+      }
+    }
+  }
+}
+
+.containerButton {
+  width: 700px;
+  margin: 0 auto;
+
+  button {
+    background: none;
+    border: none;
+    font-weight: 600;
+
+    font-size: 1.125rem;
+
+    color: var(--pink);
+  }
+}
